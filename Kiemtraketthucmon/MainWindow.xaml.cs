@@ -24,20 +24,5 @@ namespace Kiemtraketthucmon
         {
             InitializeComponent();
         }
-
-        private void Cho_Click(object sender, RoutedEventArgs e)
-        {
-            Cho dog = new Cho();
-            dog.Keu();
-            MessageBox.Show(dog.cho + tbxDog.Text);           
-        }
-
-        private void Meo_Click_1(object sender, RoutedEventArgs e)
-        {
-            Meo cat = new Meo();
-            cat.Keu();
-            MessageBox.Show(cat.meo + tbxCat.Text);
-
-        }
     }
 }
