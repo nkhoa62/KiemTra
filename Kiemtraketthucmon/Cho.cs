@@ -8,10 +8,9 @@ namespace Kiemtraketthucmon
 {
     class Cho : DongVat
     {
-        public string cho = "Gâu gâu. Tôi là Cho lông màu:";
-        public void keu()
+        public override void Talk()
         {
-            cho = "Gâu gâu. Tôi là Cho lông màu;";
+            base.Talk();
         }
     }
 }

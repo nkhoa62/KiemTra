@@ -8,10 +8,9 @@ namespace Kiemtraketthucmon
 {
     class Meo: DongVat
     {
-        public String meo = "Meo meo. Tôi là Mèo lông màu:";
-        public void keu()
+        public override void Talk()
         {
-            meo = "Meo meo. Tôi là Mèo lông màu:";
+            base.Talk();
         }
     }
 }

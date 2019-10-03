@@ -20,9 +20,20 @@ namespace Kiemtraketthucmon
     /// </summary>
     public partial class MainWindow : Window
     {
-        public MainWindow()
+        private void Btnmeo_Click(object sender, RoutedEventArgs e)
         {
-            InitializeComponent();
+            Meo meo = new Meo();
+            meo.tiengkeu = "Meo meo";
+            meo.DongvatMauLong = "Đen";
+            meo.Talk();
+        }
+
+        private void Btncho_Click(object sender, RoutedEventArgs e)
+        {
+            Cho cho = new Cho();
+            cho.tiengkeu = "Gâu gâu";
+            cho.DongvatMauLong = "Trắng";
+            cho.Talk();
         }
     }
 }
