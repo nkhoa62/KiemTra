@@ -8,10 +8,10 @@ namespace Kiemtraketthucmon
 {
     class Meo: DongVat
     {
-        public String meo;
+        public String meo = "Meo meo. Tôi là Mèo lông màu:";
         public void keu()
         {
-            meo = "Meo meo";
+            meo = "Meo meo. Tôi là Mèo lông màu:";
         }
     }
 }
